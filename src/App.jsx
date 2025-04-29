@@ -1,3 +1,49 @@
+// import Counter1 from "./Hooks/Counter1";
+import DarkLight from "./Hooks/DarkLight";
+import TernaryOperator from "./Hooks/TernaryOperator";
+
+
+function App(){
+  return(
+    <>
+    {/* <Counter1 /> */}
+    <TernaryOperator />
+    <DarkLight />
+    </>
+  )
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import { useState } from "react"
 
 
@@ -158,47 +204,47 @@
 // //       {show && <p style={{ fontSize: '20px', color: 'green' }}>Welcome Shakir Khan! 👋</p>}
 // //     </div>
 
-import Counter from "./components/Counter";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import PropsData from "./components/PropsData";
-import UseEffect from "./components/useEffect";
-import FavoriteColor from "./Hooks/useState";
-import Counter1 from "./Hooks/Counter1";
-function App(){
+// import Counter from "./components/Counter";
+// import Home from "./components/Home";
+// import Navbar from "./components/Navbar";
+// import PropsData from "./components/PropsData";
+// import UseEffect from "./components/useEffect";
+// import FavoriteColor from "./Hooks/useState";
+// import Counter1 from "./Hooks/Counter1";
+// function App(){
 
-  // const city = "Indore";
+//   // const city = "Indore";
 
-  // const data = {
-  //   name : "Arpit Kumar",
-  //   age : "25",
-  //   city : "Ujjain",
-  //   gander: "Male"
+//   // const data = {
+//   //   name : "Arpit Kumar",
+//   //   age : "25",
+//   //   city : "Ujjain",
+//   //   gander: "Male"
     
-  // }
+//   // }
 
-  // const city = "Indore"
-  return (
-    <>
+//   // const city = "Indore"
+//   return (
+//     <>
 
-    <Counter1 />
+//     <Counter1 />
 
-    <FavoriteColor />
-    {/* <UseEffect /> */}
-    {/* <Navbar /> */}
-    {/* <Home /> */}
-    {/* <h1 style={{textAlign:"center", paddingTop:"50px"}}>Props :-  </h1> */}
-    {/* <Navbar /> */}
+//     <FavoriteColor />
+//     {/* <UseEffect /> */}
+//     {/* <Navbar /> */}
+//     {/* <Home /> */}
+//     {/* <h1 style={{textAlign:"center", paddingTop:"50px"}}>Props :-  </h1> */}
+//     {/* <Navbar /> */}
 
-    {/* <PropsData name= "Shakir khan" age="24"/> */}
+//     {/* <PropsData name= "Shakir khan" age="24"/> */}
 
-    {/* <PropsData value={city} /> */}
+//     {/* <PropsData value={city} /> */}
 
-    {/* <PropsData value={data} /> */}
+//     {/* <PropsData value={data} /> */}
 
 
-    </>
-  )
-}
+//     </>
+//   )
+// }
 
-export default App;
+// export default App;
