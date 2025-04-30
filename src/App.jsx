@@ -1,5 +1,9 @@
 // import Counter1 from "./Hooks/Counter1";
 import DarkLight from "./Hooks/DarkLight";
+import LikeButton from "./Hooks/LikeButton";
+import Password from "./Hooks/Passowrd";
+import ShowHideExample from "./Hooks/ShowHideExample";
+import ShowMore from "./Hooks/ShowMore";
 import TernaryOperator from "./Hooks/TernaryOperator";
 
 
@@ -9,6 +13,17 @@ function App(){
     {/* <Counter1 /> */}
     <TernaryOperator />
     <DarkLight />
+    <LikeButton />
+    <ShowMore />
+    <Password />
+    <ShowHideExample />
+
+    {/* Counter with Even/odd Check  */}
+    {/* Toggle image Show/Hide  */}
+
+    {/* Age checker */}
+    {/* Student Pass/Fail  */}
+
     </>
   )
 }
