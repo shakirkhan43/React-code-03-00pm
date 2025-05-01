@@ -1,8 +1,14 @@
 // import Counter1 from "./Hooks/Counter1";
+import AgeChacker from "./Hooks/AgeChecker";
+import BasicForm from "./Hooks/BasicForm";
 import DarkLight from "./Hooks/DarkLight";
+import EvenOdd from "./Hooks/EvenOdd";
 import LikeButton from "./Hooks/LikeButton";
+import MultiInputForm from "./Hooks/MultiInputForm";
+import PassFail from "./Hooks/PassFail";
 import Password from "./Hooks/Passowrd";
 import ShowHideExample from "./Hooks/ShowHideExample";
+import ShowImage from "./Hooks/ShowImage";
 import ShowMore from "./Hooks/ShowMore";
 import TernaryOperator from "./Hooks/TernaryOperator";
 
@@ -11,12 +17,22 @@ function App(){
   return(
     <>
     {/* <Counter1 /> */}
-    <TernaryOperator />
+    {/* <TernaryOperator />
     <DarkLight />
     <LikeButton />
     <ShowMore />
     <Password />
-    <ShowHideExample />
+    <ShowHideExample /> */}
+
+    {/* <EvenOdd /> */}
+    {/* <ShowImage /> */}
+    {/* <AgeChacker /> */}
+    {/* <PassFail />  */}
+
+    {/* form  */}
+
+    <BasicForm />
+    {/* <MultiInputForm /> */}
 
     {/* Counter with Even/odd Check  */}
     {/* Toggle image Show/Hide  */}
