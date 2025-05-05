@@ -4,6 +4,7 @@ import BasicForm from "./Hooks/BasicForm";
 import DarkLight from "./Hooks/DarkLight";
 import EvenOdd from "./Hooks/EvenOdd";
 import LikeButton from "./Hooks/LikeButton";
+import MultiForm from "./Hooks/MultiForm";
 import MultiInputForm from "./Hooks/MultiInputForm";
 import PassFail from "./Hooks/PassFail";
 import Password from "./Hooks/Passowrd";
@@ -31,7 +32,8 @@ function App(){
 
     {/* form  */}
 
-    <BasicForm />
+    {/* <BasicForm /> */}
+    <MultiForm />
     {/* <MultiInputForm /> */}
 
     {/* Counter with Even/odd Check  */}
