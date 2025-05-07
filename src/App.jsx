@@ -12,6 +12,16 @@ import ShowHideExample from "./Hooks/ShowHideExample";
 import ShowImage from "./Hooks/ShowImage";
 import ShowMore from "./Hooks/ShowMore";
 import TernaryOperator from "./Hooks/TernaryOperator";
+import CounterExample from "./StateExample/CounterExample";
+import NameInput from "./StateExample/NameInput";
+import ToggleCard from "./StateExample/ToggleCard";
+import UserForm from "./StateExample/UserForm";
+import Effect from "./useEffect/Effect";
+import EffcetExamle from "./useEffect/EffectExample";
+import Hello from "./useEffect/Hello";
+import PageTitle from "./useEffect/PageTitle";
+import ShowDate from "./useEffect/ShowDate";
+import TimeDate from "./useEffect/TimeDate";
 
 
 function App(){
@@ -33,7 +43,7 @@ function App(){
     {/* form  */}
 
     {/* <BasicForm /> */}
-    <MultiForm />
+    {/* <MultiForm /> */}
     {/* <MultiInputForm /> */}
 
     {/* Counter with Even/odd Check  */}
@@ -41,6 +51,24 @@ function App(){
 
     {/* Age checker */}
     {/* Student Pass/Fail  */}
+
+      {/* State Example  */}
+       
+       {/* <CounterExample />
+      <ToggleCard />
+      <NameInput />
+      <UserForm /> */}
+
+
+      {/* useEffect */}
+
+      {/* <EffcetExamle /> */}
+      {/* <Effect /> */}
+      {/* <Hello /> */}
+      {/* <PageTitle /> */}
+      {/* <ShowDate /> */}
+      <TimeDate />
+   
 
     </>
   )
