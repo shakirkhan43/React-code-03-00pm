@@ -12,6 +12,10 @@ import ShowHideExample from "./Hooks/ShowHideExample";
 import ShowImage from "./Hooks/ShowImage";
 import ShowMore from "./Hooks/ShowMore";
 import TernaryOperator from "./Hooks/TernaryOperator";
+import BasicMap from "./MapFucntion/BasicMap";
+import Data from "./MapFucntion/Data";
+import DataJson from "./MapFucntion/DataJson";
+import Product from "./MapFucntion/Product";
 import CounterExample from "./StateExample/CounterExample";
 import NameInput from "./StateExample/NameInput";
 import ToggleCard from "./StateExample/ToggleCard";
@@ -72,7 +76,13 @@ function App(){
       {/* <TimeDate /> */}
 
       {/* <Letskilify /> */}
-      <UsersList />
+      {/* <UsersList /> */}
+
+      {/* API  */}
+    {/* <BasicMap /> */}
+     {/* <DataJson /> */}
+     <Product />
+      {/* <Data /> */}
 
    
 
