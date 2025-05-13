@@ -27,8 +27,13 @@ import Letskilify from "./useEffect/Letskillify";
 import PageTitle from "./useEffect/PageTitle";
 import ShowDate from "./useEffect/ShowDate";
 import TimeDate from "./useEffect/TimeDate";
-import UsersList from "./useEffect/UsersList";
-
+import ProductList from "./useEffect/UsersList";
+import ProductData from "./MapFucntion/ProductData";
+import FruitList from "./MapFucntion/FruitList";
+import PlayerCards from "./MapFucntion/PlayerCards";
+import StudentList from "./MapFucntion/StudentList";
+import AlertsList from "./MapFucntion/ProductCards";
+import CounterList from "./MapFucntion/CounterList";
 
 function App(){
   return(
@@ -81,12 +86,17 @@ function App(){
       {/* API  */}
     {/* <BasicMap /> */}
      {/* <DataJson /> */}
-     <Product />
+     {/* <Product /> */}
       {/* <Data /> */}
 
-   
-
-    </>
+      
+      {/* <ProductData /> */}
+      {/* <FruitList /> */}
+      {/* <PlayerCards /> */}
+      {/* <StudentList /> */}
+     {/* <AlertsList /> */}
+     {/* <CounterList /> */}
+</>
   )
 }
 
