@@ -34,6 +34,8 @@ import PlayerCards from "./MapFucntion/PlayerCards";
 import StudentList from "./MapFucntion/StudentList";
 import AlertsList from "./MapFucntion/ProductCards";
 import CounterList from "./MapFucntion/CounterList";
+import FilterExample from "./Filter/FilterExample";
+import LocalData from "./Filter/LocalData";
 
 function App(){
   return(
@@ -96,6 +98,11 @@ function App(){
       {/* <StudentList /> */}
      {/* <AlertsList /> */}
      {/* <CounterList /> */}
+
+     {/* Filter  */}
+
+     {/* <FilterExample /> */}
+     <LocalData />
 </>
   )
 }
