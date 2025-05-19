@@ -36,6 +36,7 @@ import AlertsList from "./MapFucntion/ProductCards";
 import CounterList from "./MapFucntion/CounterList";
 import FilterExample from "./Filter/FilterExample";
 import LocalData from "./Filter/LocalData";
+import AddToCart from "./Filter/AddToCart";
 
 function App(){
   return(
@@ -102,7 +103,8 @@ function App(){
      {/* Filter  */}
 
      {/* <FilterExample /> */}
-     <LocalData />
+     {/* <LocalData /> */}
+     <AddToCart />
 </>
   )
 }
