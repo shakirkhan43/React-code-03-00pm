@@ -37,6 +37,7 @@ import CounterList from "./MapFucntion/CounterList";
 import FilterExample from "./Filter/FilterExample";
 import LocalData from "./Filter/LocalData";
 import AddToCart from "./Filter/AddToCart";
+import UserList from "./API/UserList";
 
 function App(){
   return(
@@ -104,7 +105,12 @@ function App(){
 
      {/* <FilterExample /> */}
      {/* <LocalData /> */}
-     <AddToCart />
+     {/* <AddToCart /> */}
+
+     
+     {/* API  */}
+     
+     <UserList />
 </>
   )
 }
