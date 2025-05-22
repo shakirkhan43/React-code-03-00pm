@@ -38,6 +38,7 @@ import FilterExample from "./Filter/FilterExample";
 import LocalData from "./Filter/LocalData";
 import AddToCart from "./Filter/AddToCart";
 import UserList from "./API/UserList";
+import SimplePostForm from "./API/Post Api/SimplePostForm";
 
 function App(){
   return(
@@ -110,7 +111,9 @@ function App(){
      
      {/* API  */}
      
-     <UserList />
+     {/* <UserList /> */}
+
+     <SimplePostForm />
 </>
   )
 }
