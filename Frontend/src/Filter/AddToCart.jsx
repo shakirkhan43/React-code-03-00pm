@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import Data from "../MapFucntion/product.json";
 
 // ✅ Navbar component import kiya gaya jo upar cart count dikhata hai
-import Navbar from "../Filter/Navbar";
+import Navbar from "./Navbar";
 
 // ✅ Functional component start
 function AddToCart() {
