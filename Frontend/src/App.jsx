@@ -39,6 +39,8 @@ import LocalData from "./Filter/LocalData";
 import AddToCart from "./Filter/AddToCart";
 import SimplePostForm from "./API/Post Api/SimplePostForm";
 import UserFormApi from "./API/Post Api/UserFormApi";
+import AsincAwait from "./API/AsincAwait";
+import FormPostAPI from "./API/FormPostAPI";
 
 
 
@@ -116,7 +118,11 @@ function App(){
      {/* <UserList /> */}
 
      {/* <SimplePostForm /> */}
-     <UserFormApi />
+     {/* <UserFormApi /> */}
+
+     {/* <AsincAwait /> */}
+     {/* <FormPostAPI /> */}
+    <FormPostAPI />
     
 </>
   )
