@@ -41,6 +41,7 @@ import SimplePostForm from "./API/Post Api/SimplePostForm";
 import UserFormApi from "./API/Post Api/UserFormApi";
 import AsincAwait from "./API/AsincAwait";
 import FormPostAPI from "./API/FormPostAPI";
+import FormDataUpdate from "./API/Put Api/FormDataUpdate";
 
 
 
@@ -122,7 +123,9 @@ function App(){
 
      {/* <AsincAwait /> */}
      {/* <FormPostAPI /> */}
-    <FormPostAPI />
+    {/* <FormPostAPI /> */}
+
+    <FormDataUpdate />
     
 </>
   )
